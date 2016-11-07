@@ -1,0 +1,14 @@
+# Windows:
+*.rar
+*.zip
+
+# Program:
+.svn
+.vs
+.idea
+bin/
+obj/
+temp/
+*.user
+*.suo
+*.Publish.xml
