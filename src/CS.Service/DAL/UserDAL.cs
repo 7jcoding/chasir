@@ -10,7 +10,7 @@ namespace CS.Service.DAL
     public class UserDAL : DALBase
     {
         private readonly string table_name = "test_user";
-        private readonly string primary_key = "username";
+        private readonly string primary_key = "UserName";
         //public UserDAL() : base("Data Source = 192.168.1.221; Initial Catalog = fanhuansqlserver; User ID = sa; Password=123456")
         //{ }
 
