@@ -1,22 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CE5D0373-46F7-45F3-AB33-7238B6FBA91F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0CB66DD8-B903-4EDE-B41A-57DC9FBE5A7B}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "chasir", "src\chasir\chasir.xproj", "{D2ED115A-66C1-47FB-BC76-CE426D39C24B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chasir", "src\chasir\chasir.csproj", "{D2ED115A-66C1-47FB-BC76-CE426D39C24B}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CS.Common", "src\CS.Common\CS.Common.xproj", "{7D8DDEB0-ABC7-483F-BEDD-0EECD668CDFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS.Common", "src\CS.Common\CS.Common.csproj", "{7D8DDEB0-ABC7-483F-BEDD-0EECD668CDFF}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CS.Model", "src\CS.Model\CS.Model.xproj", "{3C435C04-1DDF-4348-9FB4-01870FFE895E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS.Model", "src\CS.Model\CS.Model.csproj", "{3C435C04-1DDF-4348-9FB4-01870FFE895E}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CS.Service", "src\CS.Service\CS.Service.xproj", "{3034ED7D-3F63-490A-9876-FE18ADF41461}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS.Service", "src\CS.Service\CS.Service.csproj", "{3034ED7D-3F63-490A-9876-FE18ADF41461}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
