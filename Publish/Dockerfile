@@ -1,5 +1,5 @@
-# 基于https://github.com/7jcoding/chasir:latest构建Docker Image
-FROM https://github.com/7jcoding/chasir:latest
+# 基于https://github.com/7jcoding/chasir:v1.0构建Docker Image
+FROM https://github.com/7jcoding/chasir:v1.0
  
 # 进入docker中的/var/www/目录
 RUN cd /var/www/
