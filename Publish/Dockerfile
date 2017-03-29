@@ -1,20 +1,20 @@
-# »ùÓÚhttps://github.com/7jcoding/chasir:v1.0¹¹½¨Docker Image
-FROM https://github.com/7jcoding/chasir:v1.0
+# åŸºäºhttps://github.com/7jcoding/chasiræ„å»ºDocker Image
+FROM https://github.com/7jcoding/chasir
  
-# ½øÈëdockerÖĞµÄ/var/www/Ä¿Â¼
+# è¿›å…¥dockerä¸­çš„/var/www/ç›®å½•
 RUN cd /var/www/
  
-# ´´½¨DockerWebAPIÄ¿Â¼
+# åˆ›å»ºDockerWebAPIç›®å½•
 RUN mkdir chasir
  
-# ÉèÖÃ¹¤×÷Â·¾¶
+# è®¾ç½®å·¥ä½œè·¯å¾„
 WORKDIR /var/www/chasir
  
-# ½«µ±Ç°ÎÄ¼ş¼ĞÏÂµÄËùÓĞÎÄ¼şÈ«²¿¸´ÖÆµ½¹¤×÷Ä¿Â¼
+# å°†å½“å‰æ–‡ä»¶å¤¹ä¸‹çš„æ‰€æœ‰æ–‡ä»¶å…¨éƒ¨å¤åˆ¶åˆ°å·¥ä½œç›®å½•
 COPY *.* ./
  
-# ÏòÍâ½ç±©Â¶5000¶Ë¿Ú
+# å‘å¤–ç•Œæš´éœ²5000ç«¯å£
 EXPOSE 5000
  
-# Ö´ĞĞdotnet chasir.dllÃüÁî
+# æ‰§è¡Œdotnet chasir.dllå‘½ä»¤
 CMD ["dotnet", "chasir.dll"]
